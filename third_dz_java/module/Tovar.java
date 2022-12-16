@@ -1,3 +1,5 @@
+package module;
+
 public class Tovar {
     
     private String name;

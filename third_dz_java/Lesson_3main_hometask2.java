@@ -28,10 +28,9 @@ public class Lesson_3main_hometask2 {
         
         for (int i=0; i <ListTovar.size(); i++) {
             List<Double> ListProduct = new ArrayList<>();
-            if (ListTovar.get(1).getQuality().equals(search)) {// Если товар подходит по сорту, добавляем инфу по нему его в лист ListProduct, который перезаписывается в цикле
+            if (ListTovar.get(1).getQuality().equals(search)) {// Если товар подходит по сорту, добавляем инфу по нему его в лист ListProduct, который перезаписывается в цикле           
                 ListProduct.add(ListTovar.get(i).getName());
                 ListProduct.add(ListTovar.get(i).getPrice());// Лист добавляем в listGeneral для дальнейшего анализа
-                
                 listGeneral.addAll(ListProduct);
             }
         }
@@ -45,8 +44,9 @@ public class Lesson_3main_hometask2 {
             }
         }
         
-        // Выводим инфу о товаре
+        // Выводим информацию о товаре
         for (int i = 0; i < ListResult.length; i++) {
             System.out.println(ListResult[i])
+    }
     }
 }
