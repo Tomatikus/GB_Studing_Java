@@ -4,7 +4,7 @@ public class task2{
         int[] ints = {1, -1, 2, -1};
         System.out.println(isArrayAlternating(ints));
     }
-    public boolean isArrayAlternating(int[] ints) {
+    public boolean isArrayAlternating(int[] ints){
         if(ints == null || ints.length % 2 != 0){
             return false;
         }
